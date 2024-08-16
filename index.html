@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymbro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gymbro</h1>
+        <button id="login-btn">Iniciar sesión</button>
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" placeholder="Buscar..." id="search-bar">
+        </section>
+        <section class="offers-section">
+            <div class="offer">
+                <h2>Oferta Energizante</h2>
+                <p>Descripción del energizante aquí.</p>
+                <button class="like-btn" data-title="Oferta Energizante">Me gusta (<span class="like-count">0</span>)</button>
+            </div>
+            <div class="offer">
+                <h2>Oferta Máquina de Ejercicio</h2>
+                <p>Descripción de la máquina de ejercicio aquí.</p>
+                <button class="like-btn" data-title="Oferta Máquina de Ejercicio">Me gusta (<span class="like-count">0</span>)</button>
+            </div>
+        </section>
+        <section class="definitions-section">
+            <h2>Gymbro está definida por TI</h2>
+            <button id="add-definition-btn">Agregar definición</button>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

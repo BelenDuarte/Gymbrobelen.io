@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.search-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.offers-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.like-btn {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.like-btn:hover {
+    background-color: #218838;
+}
+
+
+main {
+    position: relative;
+}
+
+.definitions-section {
+    width: 300px; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 98px; 
+    right: 20px; 
+}
+
+.definitions-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#add-definition-btn {
+    background-color: #3678f4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#add-definition-btn:hover {
+    background-color: #2755aa;
+}
+
